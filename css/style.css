@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+body {
+    font-family: 'Space Mono', serif;
+}
+
+.navbar {
+    background-color: #0C2461;
+    font-weight: bolder;
+    z-index: 2;
+}
+
+.navbar a {
+    color: #ffffff!important;
+}
+
+.navbar a:hover {
+    background-color: #0C2461!important;
+    box-shadow: 0px 2px 2px 0px #ffffff;
+}
+
+.container-fluid {
+    width: 75%;
+    margin-top: 60px;
+    font-size: 18px;
+    height: auto;
+    background-color: #DCDCDC;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    list-style-type: disc!important;
+}
