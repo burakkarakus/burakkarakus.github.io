@@ -4,16 +4,17 @@ body {
 }
 
 .navbar {
-    background-color: #0C2461;
+    background-color: #DCDCDC;
+    ;
     font-weight: bolder;
 }
 
 .navbar a {
-    color: #ffffff!important;
+    color: #000000!important;
 }
 
 .navbar a:hover {
-    background-color: #0C2461!important;
+    background-color: #AFAFAF!important;
     box-shadow: 0px 2px 2px 0px #ffffff;
 }
 
@@ -31,4 +32,5 @@ ul {
 
 ul li {
     list-style-type: disc!important;
+    color: #0C2461;
 }
