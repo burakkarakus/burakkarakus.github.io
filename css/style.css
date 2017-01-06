@@ -10,7 +10,7 @@ body {
 }
 
 .navbar a {
-    color: #000000!important;
+    color: #ABABAB!important;
 }
 
 .navbar a:hover {
@@ -33,4 +33,13 @@ ul {
 ul li {
     list-style-type: disc!important;
     color: #0C2461;
+}
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+    .container-fluid {
+        width: 100%;
+    }
 }
