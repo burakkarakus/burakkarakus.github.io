@@ -40,6 +40,16 @@ ul li {
     display: none;
 }
 
+.contact a {
+    background-color: rgb(220, 220, 220);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.contact a:hover {
+    text-decoration: none;
+}
+
 
 /* Landscape phones and down */
 
