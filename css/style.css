@@ -3,6 +3,10 @@ body {
     font-family: 'Space Mono', serif;
 }
 
+hr {
+    border-color: #DCDCDC!important;
+}
+
 .navbar {
     background-color: #DCDCDC;
     ;
@@ -40,10 +44,17 @@ ul li {
     display: none;
 }
 
+.portfolio img {
+    max-width: 450px;
+    max-height: 200px;
+}
+
+.figure {
+    overflow: hidden;
+}
+
 .contact a {
-    background-color: rgb(220, 220, 220);
     padding: 10px 15px;
-    border-radius: 5px;
 }
 
 .contact a:hover {
