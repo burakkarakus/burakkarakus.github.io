@@ -3,6 +3,30 @@ body {
     font-family: 'Space Mono', serif;
 }
 
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1500;
+    position: fixed;
+    top: 0;
+}
+
+.fill-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+.close {
+    padding: 5px;
+    color: black;
+    background-color: white;
+    float: left;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
 hr {
     border-color: #DCDCDC!important;
 }
@@ -51,6 +75,9 @@ ul li {
 
 .figure {
     overflow: hidden;
+    border: 2px solid #DFDFDF;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .contact a {
@@ -71,7 +98,7 @@ ul li {
     #nav-icon {
         display: block;
     }
-    li:not(:last-child) {
+    header li:not(:last-child) {
         display: none;
     }
 }
