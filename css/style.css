@@ -31,9 +31,12 @@ hr {
     border-color: #DCDCDC!important;
 }
 
+.nav li {
+    display: inline-block;
+}
+
 .navbar {
     background-color: #DCDCDC;
-    ;
     font-weight: bolder;
 }
 
@@ -94,11 +97,5 @@ ul li {
 @media (max-width: 480px) {
     .container-fluid {
         width: 100%;
-    }
-    #nav-icon {
-        display: block;
-    }
-    header li:not(:last-child) {
-        display: none;
     }
 }
