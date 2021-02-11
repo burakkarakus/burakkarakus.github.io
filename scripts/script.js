@@ -1,10 +1,15 @@
 $(document).ready(function () {
+
+    $('#resume').on('click', function () {
+        window.open('BurakKarakusCV.pdf')
+    })
+
     $('li:not(:last-child) a').on('click', function () {
         var hash = $(this)[0].hash;
 
         $('html,body').animate({
-                scrollTop: $(hash).offset().top - 50
-            },
+            scrollTop: $(hash).offset().top - 50
+        },
             'slow');
     });
 
