@@ -3,21 +3,6 @@ body {
     font-family: 'Space Mono', serif;
 }
 
-.overlay {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1500;
-    position: fixed;
-    top: 0;
-}
-
-.fill-image {
-    display: block;
-    margin: 0 auto;
-    max-width: 75%;
-}
-
 .close {
     padding: 5px;
     color: black;
@@ -31,28 +16,10 @@ hr {
     border-color: #DCDCDC!important;
 }
 
-.nav li {
-    display: inline-block;
-}
-
-.navbar {
-    background-color: #DCDCDC;
-    font-weight: bolder;
-}
-
-.navbar a {
-    color: #ABABAB!important;
-}
-
-.navbar a:hover {
-    background-color: #AFAFAF!important;
-    /* box-shadow: 0 2px 2px 0 #ffffff; */
-    color: black!important;
-}
-
 .container-fluid {
     width: 75%;
-    margin-top: 50px;
+    padding: 20em 0;
+    text-align: center;
     font-size: 18px;
     height: auto;
     background-color: #DCDCDC;

@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $('#resume').on('click', function () {
-        window.open('BurakKarakusCV.pdf')
+        window.open('bkcv-limited.pdf')
     })
 
     $('li:not(:last-child) a').on('click', function () {
