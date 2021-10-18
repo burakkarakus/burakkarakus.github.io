@@ -1,2 +1,2 @@
 # burakkarakus.github.io
-Personal website of B. Karakuş
+Personal website of Burak Karakuş
